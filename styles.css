@@ -1,20 +1,38 @@
 body {
-    background-color: #0a0a23;
+    background-color: #240f26;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 #text {
     background-color: #0a0a23;
-    color: #ffffff;
+    color: #decbcb;
     padding: 10px;
 }
-
+h2{
+    text-align: center;
+    margin-top: 7.75rem;
+    margin-bottom: 0.75rem;
+    color: #decbcb;
+}
 #game {
     max-width: 500px;
     max-height: 400px;
-    background-color: #ffffff;
-    color: #ffffff;
+    background-color:#decbcb;
+    color: #decbcb;
     margin: 30px auto 0px;
     padding: 10px;
+}
+.game-name{
+    color: #ffffff;
 }
 #controls, #stats {
     border: 1px solid #0a0a23;
@@ -36,7 +54,7 @@ body {
 button{
     cursor: pointer;
     color:#000000;
-    background-color: #f6d4a1;
-    background-image:linear-gradient(#efd594, #ffac33);
-    border: 1px solid  #ffac33;
+    background-color: #efdcc0;
+    background-image:linear-gradient(#e6d9b8, #dfb77b);
+    border: 1px solid  #5d4b31;
 }
